@@ -1,0 +1,321 @@
+/* El diseño adaptativo para el escrtorio*/
+@media only screen and (min-width: 900px){ /* Recurso del Media Query para detalles de los estilos*/
+/* Diseño general con estilos de Bootstrap*/
+  body {
+    background: brown;
+  }
+  .container {
+    height: 150px;
+    width: 92%;
+    margin-left: 50px;
+    background: #FFFFFF;
+  }
+  .contenido {
+    height: 150px;
+    width: 100%;
+    background: #FFFFFF;
+  }
+  .navegacion {
+    height: 51.4px;
+    width: 92%;
+    margin-left: 50px;
+    background: #FAA253;
+  }
+  a {
+    color: black;
+  }
+  li {
+    padding-left: 110px;
+  }
+  .logo-img {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  .color1 {
+    color: #F24B83;
+    float: right;
+  }
+  .color2 {
+    color: #3B5998;
+    float: right;
+  }
+  .color3 {
+    color: white;
+    background-color: #3F729B;
+    float: right;
+    border-radius: 8px;
+  }
+  .color4 {
+    color: #CB2027;
+    float: right;
+  }
+  .color5 {
+    color: #55ACEE;
+    float: right;
+  }
+  .iconos{
+    margin-top: -30px;
+  }
+  .buscador{
+    margin-top: 20px;
+    width: 300px;
+  }
+  /* --POST-- */
+  #contenedor{
+    margin-top: 20px;
+    background: #FFFFFF;
+    height: 850px;
+    width: 92%;
+    margin-left: 50px;
+  }
+  .thumb1{
+    margin-left: 10px;
+  }
+  .imagen{
+    margin-top: 20px;
+    width: 440px;
+    height: 222px;
+    margin-left: 0px;
+  }
+  .imagen1{
+    margin-top: 20px;
+    width: 420px;
+    height: 246px
+  }
+  .post-title{
+    margin-left: 10px;
+  }
+  .post-contenido{
+    margin-left: 10px;
+  }
+  .comentario{
+    margin-left: 10px;
+  }
+  .post-title1{
+    margin-left: 10px;
+  }
+  .post-contenido1{
+    margin-left: 10px;
+  }
+  .comentario1{
+    margin-left: 10px;
+  }
+}
+/* El diseño adaptativo para tablets*/
+@media only screen and (max-width: 899px) and (min-width: 600px){
+  body {
+    background: brown;
+  }
+  .container {
+    height: 150px;
+    width: 100%;
+    margin-left: 0px;
+    background: #FFFFFF;
+  }
+  .contenido {
+    height: 150px;
+    width: 100%;
+    background: #FFFFFF;
+  }
+  .navegacion {
+    height: 52px;
+    width: 100%;
+    margin-left: 0px;
+    background: #FAA253;
+  }
+  a {
+    color: black;
+  }
+  li {
+    padding-left: 40px;
+  }
+  .logo-img {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  .color1 {
+    color: #F24B83;
+    float: right;
+  }
+  .color2 {
+    color: #3B5998;
+    float: right;
+  }
+  .color3 {
+    color: white;
+    background-color: #3F729B;
+    float: right;
+    border-radius: 8px;
+  }
+  .color4 {
+    color: #CB2027;
+    float: right;
+  }
+  .color5 {
+    color: #55ACEE;
+    float: right;
+  }
+  .iconos{
+    margin-top: -30px;
+  }
+  .buscador{
+    margin-top: 20px;
+    width: 300px;
+  }
+  /* --POST-- */
+  #contenedor{
+    margin-top: 20px;
+    background: #FFFFFF;
+    height: 1040px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .thumb1{
+    margin-left: 10px;
+  }
+  .imagen{
+    margin-top: 20px;
+    width: 727px;
+    height: 222px;
+    margin-left: 10px;
+  }
+  .imagen1{
+    margin-top: 15px;
+    width: 727px;
+    height: 222px;
+    margin-left: 0px;
+  }
+  .post-title{
+    margin-left: 10px;
+  }
+  .post-contenido{
+    margin-left: 10px;
+  }
+  .comentario{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .post-title1{
+    margin-left: 10px;
+  }
+  .post-contenido1{
+    margin-left: 10px;
+  }
+  .comentario1{
+    margin-left: 10px;
+  }
+}
+/* El diseño adaptativo para celulares*/
+@media only screen and (max-width: 599px){
+  body {
+    background: brown;
+  }
+  .container {
+    height: 300px;
+    width: 100%;
+    margin-left: 0px;
+    background: #FFFFFF;
+  }
+  .contenido {
+    height: 300px;
+    width: 100%;
+    background: #FFFFFF;
+  }
+  .navegacion {
+    height: 260px;
+    width: 100%;
+    margin-left: 0px;
+    background: #FAA253;
+  }
+  a {
+    color: black;
+  }
+  li {
+    padding-left: 175px;
+  }
+  .logo-img {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  .color1 {
+    color: #F24B83;
+    float: right;
+  }
+  .color2 {
+    color: #3B5998;
+    float: right;
+  }
+  .color3 {
+    color: white;
+    background-color: #3F729B;
+    float: right;
+    border-radius: 8px;
+  }
+  .color4 {
+    color: #CB2027;
+    float: right;
+  }
+  .color5 {
+    color: #55ACEE;
+    float: right;
+  }
+  .iconos{
+    margin-left: -100px;
+    margin-top: 127px;
+  }
+  .buscador{
+    margin-top: 20px;
+    width: 300px;
+  }
+  /* --POST-- */
+  #contenedor{
+    margin-top: 20px;
+    background: #FFFFFF;
+    height: 1270px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .thumb1{
+    margin-left: 10px;
+  }
+  .imagen{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 380px;
+    height: 222px;
+    margin-left: 0px;
+  }
+  .imagen1{
+    margin-top: 15px;
+    width: 380px;
+    height: 222px;
+    margin-left: -10px;
+  }
+  .post-title{
+    margin-left: 10px;
+  }
+  .post-contenido{
+    margin-left: 0px;
+  }
+  .comentario{
+    margin-left: 0px;
+  }
+  .post-title1{
+    margin-left: 0px;
+  }
+  .post-contenido1{
+    margin-left: 0px;
+  }
+  .comentario1{
+    margin-left: 0px;
+  }
+}

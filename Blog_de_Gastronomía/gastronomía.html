@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,user-scalable=no">
+      <title>Blog de Gastronomía</title>
+      <!--importar las hojas de estilos de Foundation-->
+      <link rel="stylesheet" href="css/foundation.min.css">
+      <link rel="stylesheet" href="css/app.css">
+      <!--importar los iconos de Foundation-->
+      <link rel="stylesheet" href="css/foundation-icons.css" />
+      <!--importar la hoja de estilo del css-->
+      <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <header>
+        <div class="row fila show-for-large">
+          <div class="column small-3 medium-3 large-3 color"> <!--clase que muestra los elementos para tamaño largo-->
+            <h1 class="titulo">Origenes de Comidas</h1> <!--nombre y slogan del blog utilizando el sistema de rejillas-->
+            <h2 class="slogan">Lugares provenientes de famosas comidas</h2>
+          </div>
+
+          <div class="column small-9 medium-9 large-9 color1">
+
+          </div>
+
+          <hr/>
+
+        </div>
+      </header>
+
+
+    <div class="row fila1"> <!--un buscador en la columna izquierda-->
+
+      <div class="column small-3 medium-3 large-3 color2 show-for-large">
+        <div class="row collapse columna">
+          <form class="form">
+            <div class="samll-9 medium-9 large-9 columns columna">
+              <input type="text" placeholder="" class="text"/>
+            </div>
+            <div class="small-3 medium-3 large-3 columns columna1">
+              <span class="button postfix"><i class="fi-magnifying-glass"></i></span>
+            </div>
+          </form>
+        </div>
+
+        <ul class="vertical menu show-for-large"> <!--componente de Foundation para crear un menú de navegación-->
+          <div class="borde">
+            <li><a href="#">Inicio</a></li>
+          </div>
+
+          <div class="borde">
+            <li><a href="#">Origenes de platos</a></li>
+          </div>
+
+          <div class="borde">
+            <li><a href="#">Lugar de las recetas</a></li>
+          </div>
+        </ul>
+
+        <h2 class="subtitulo show-for-large">Favoritos:</h2> <!--dos filas de tres imágenes-->
+
+        <div class="row lineas show-for-large">
+          <div class="small-4 medium-4 large-4 columns lineas">
+            <img src="img/paella-th.png" alt="paella" class="thumbnail">
+          </div>
+
+          <div class="small-4 medium-4 large-4 columns lineas">
+            <img src="img/causa-th.png" alt="causa" class="thumbnail">
+          </div>
+
+          <div class="small-4 medium-4 large-4 columns lineas">
+            <img src="img/empanadas-th.png" alt="empanadas" class="thumbnail">
+          </div>
+        </div>
+
+        <div class="row lineas show-for-large">
+          <div class="small-4 medium-4 large-4 columns lineas">
+            <img src="img/fondue-th.png" alt="fondue" class="thumbnail">
+          </div>
+
+          <div class="small-4 medium-4 large-4 columns lineas">
+            <img src="img/sushi-th.png" alt="sushi" class="thumbnail">
+          </div>
+
+          <div class="small-4 medium-4 large-4 columns lineas">
+            <img src="img/enchiladas-th.png" alt="enchiladas" class="thumbnail">
+          </div>
+        </div>
+
+        <h2 class="subtitulo show-for-large">Historial:</h2> <!--lista de enlaces que muestra entradas visitadas previamente-->
+
+        <ul class="vertical menu show-for-large">
+          <li class="li1"><a class="a1" href="#">Origen de la paella</a></
+          <li class="li1"><a class="a1" href="#">Lugar proveniente de la causa</a></li>
+          <li class="li1"><a class="a1" href="#">Lugar de las empanadas y enchiladas</a></li>
+          <li class="li1"><a class="a1" href="#">Lugar del sushi</a></li>
+          <li class="li1"><a class="a1" href="#">Lugar del fondue</a></li>
+        </ul>
+
+      </div>
+
+      <div class="small-9 medium-9 large-9 columns" id="color3">
+        <h2 class="titulo1">Sitios de comidas</h2> <!--contenido del blog con dos artículos-->
+        <h3 class="fecha">2 de Julio 2017</h3>
+
+        <div class="row lineas">
+          <div class="small-12 medium-12 large-12 columns lineas">
+            <img src="img/sitio-th.png" alt="sitio" class="thumbnail entrada">
+          </div>
+          <!--párrafo de texto como cuerpo de la entrada-->
+          <p class="texto">Si alguna vez has pensado que las comidas típicas de tu país son sumamente extrañas y peculiares, te cuento que estás en lo incorrecto, ya que existen un sinnúmero de combinaciones de alimentos según la cultura del país de su respectiva procedencia. Existen platos tradicionales para distintas horas del día oriundos de varios países alrededor del mundo, caracterizados por su rica cultura y personalidad atractiva.</p>
+        </div>
+
+        <hr/>
+
+        <div class="small-12 medium-12 large-12 columns columna2">
+          <div class="row collapse columna2">
+            <form>
+              <label class="margen">Escribe un comentario:</label> <!--textarea para ingresar un comentario-->
+              <div class="small-12 medium-12 large-12 columns columna2">
+                <textarea name="comentario" placeholder="" class="caja"></textarea>
+                <span class="button boton"><i class="fi-pencil"></i> Publicar</span>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="small-12 medium-12 large-12 columns columna3">
+          <div class="row collapse columna2">
+            <form> <!--sección e historial de comentarios con la imágen, nombre y comemtario del usuario que lo hizo-->
+              <div class="marco">
+                <span class="historial"><i class="fi-torso-female torso"></i><p class="linea">María123: Buen Post, muy interesantes comidas.<i class="fi-like mano"></i></p></span>
+              </div>
+              <div class="marco1">
+                <span class="historial"><i class="fi-torso torso"></i><p class="linea">Juan_F: Una pregunta, me gustaría saber de dónde son estas comidas.</p></span>
+              </div>
+              <div class="marco1">
+                <span class="historial"><i class="fi-torso torso"></i><p class="linea">Chef-388: Me gustó mucho la variedad de las comidas.<i class="fi-like mano"></i></p></span>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="small-9 medium-9 large-9 columns" id="color4">
+        <!--segunda publicación del blog con diferente contenido-->
+        <h2 class="titulo1">Lugares recomendados para una experiencia gastronómica</h2> <!--una nueva entrada con un titulo-->
+        <h3 class="fecha">7 de Octubre 2017</h3>  <!--subtítulo con una fecha de publicación-->
+
+        <div class="row lineas">
+          <div class="small-12 medium-12 large-12 columns lineas">
+            <img src="img/lugares-th.png" alt="lugares" class="thumbnail entrada"> <!--efecto para las imágenes-->
+          </div>
+          <!--párrafo de texto como cuerpo de la entrada-->
+          <p class="texto">En estos destinos encontrarás desde menús gourmet de tres platos hasta delicias callejeras. Puede parecer que hay clases y clases de comida, pero acá todos los platos están ricos por igual. Mete tu apetito en la valija y preparate para comer hasta no poder más. Los más destacados son Italia (Roma), Francia (París) y Estados Unidos (Nueva Orleans).</p>
+        </div>
+
+        <hr/>
+
+        <div class="small-12 medium-12 large-12 columns columna2">
+          <div class="row collapse columna2">
+            <form>
+              <label class="margen">Escribe un comentario:</label> <!--textarea para ingresar un comentario-->
+              <div class="small-12 medium-12 large-12 columns columna2">
+                <textarea name="comentario" placeholder="" class="caja"></textarea>
+                <span class="button boton"><i class="fi-pencil"></i> Publicar</span>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="small-12 medium-12 large-12 columns columna3">
+          <div class="row collapse columna2">
+            <form> <!--sección e historial de comentarios con la imágen, nombre y comemtario del usuario que lo hizo-->
+              <div class="marco">
+                <span class="historial"><i class="fi-torso torso"></i><p class="linea">PabloRosales: Intentaré visitar esos geniales lugares mencionados.<i class="fi-like mano"></i></p></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

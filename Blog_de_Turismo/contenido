@@ -1,0 +1,19 @@
+<img src="img/zoologico.png" alt="zoologico" class="zoologico">
+  <p class="informacion">El de Singapur es el más espectacular zoológico del mundo ya que, si bien como algunos otros imita los hábitat típicos de cada especie animal, en su caso lo hace con una planificada e increíble exactitud. En sus 28 hectáreas se pasa por selvas, estepas, desiertos, bosques, ríos y océanos. Tiene actualmente ( porque continúa en crecimiento) alrededor de 315 especies de animales en el zoológico, de las cuales un 16 por ciento son consideradas especies amenazadas de extinción. El zoológico atrae a alrededor de 1,6 millón de visitantes cada año. El Horario de hoy: 08:30 - 18:00 y su duración sugerida: Más de 3 horas.</p>
+
+  .texto1{
+    background-color: red;
+    border-radius: 8px;
+    margin-left: 312px;
+  }
+  .texto2{
+    background-color: blue;
+    border-radius: 8px;
+    margin-left: 460px;
+    margin-top: -37px;
+  }
+  <ul>
+    <li class="lista1"><i class="material-icons left identity">perm_identity</i><span class="texto4">Nombre:</span></li>
+    <li class="lista2"><i class="material-icons left comment">comment</i><span class="texto4">Comentario:</span></li>
+    <li class="lista3"><i class="material-icons left email">email</i><span class="texto5">Correo electrónico:</span></li>
+  </ul>

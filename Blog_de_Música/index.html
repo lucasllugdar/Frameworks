@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum scale=1.0">
+        <title>Blog de Música</title>
+        <!--importar las hojas de estilos de Bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--importar la fuente de los iconos de Bootstrap-->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!--importar la hoja de estilo del css-->
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+
+      <header class="container">
+        <div class="contenido">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <img class="logo-img" src="img/logo.png" alt="Music Logo"/> <!--logo del blog utilizando el sistema de rejillas-->
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 iconos"> <!--íconos y enlaces a las diferentes redes sociales-->
+              <a href="#"><i class="fa fa-youtube-square fa-3x color1"></i></a>
+              <a href="#"><i class="fa fa-facebook-square fa-3x color2"></i></a>
+              <a href="#"><i class="fa fa-instagram fa-3x color3"></i></a>
+              <a href="#"><i class="fa fa-pinterest-square fa-3x color4"></i></a>
+              <a href="#"><i class="fa fa-twitter-square fa-3x color5"></i></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="navegacion">
+        <nav class="navbar" role="navigation"> <!--navbar con 6 items-->
+         <div class="container-fluid">
+          <ul class="nav navbar-nav">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Artistas</a></li>
+              <li><a href="#">Grupos</a></li>
+              <li><a href="#">Top 10</a></li>
+              <li><a href="#">Letras</a></li>
+              <li><a href="#">Acordes</a></li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+
+      <div class="container" id="contenedor"> <!--contenido con dos artículos-->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <article>
+                  <h2 class="post-title">
+                    Luis Fonsi recorrera España en verano para ofrecer once conciertos
+                  </h2>
+                  <p class="post-contenido">
+                    Aupado a lo más alto de las listas de ventas de todo el mundo gracias al éxito de la nueva versión de su single Despacito, Luis Fonsi visitará España en verano para una amplia gira de conciertos. Comenzará el 1 de julio en Andújar y proseguirá por Huelva, Palma de Mallorca, Murcia, Benidorm y Las Palmas. Luego será turno para Tenerife, Madrid, Sanlúcar de Barrameda y Girona.
+                  </p>
+                </article>
+              </div>
+
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <article>
+                  <div class="thumb">
+                    <img class="imagen" src="img/gira.jpg" alt="gira">  <!--intercalando la posición de las imágenes-->
+                  </div>
+                </article>
+              </div>
+
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <article class="articulo">
+                  <div class="form-group">
+                    <div class="input-group comentario"> <!--textarea para ingresar un comentario-->
+                      <label class="input-group-addon glyphicon glyphicon-user" for="comment"></label>
+                      <textarea class="form-control" id="comment" placeholder="Comentario"></textarea>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+
+
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                  <article>
+                    <div class="thumb1">
+                      <img class="imagen1" src="img/record.jpg" alt="gira">
+                    </div>
+                  </article>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                  <article>
+                    <h2 class="post-title1">
+                      Despacito consigue otro sobresaliente récord histórico para la música latina
+                    </h2>
+                      <p class="post-contenido1">
+                        Spotify confirma que el nuevo remix de Despacito ha conseguido un logro histórico al ser la primera canción latina, con letra en español, en llegar a la primera posición de la lista global de canciones más escuchadas de Spotify. Despacito consigue otro sobresaliente récord histórico para la música latina. Actualmente, la versión original de Despacito ocupa el puesto 10 en el chart global, con más de 327 millones de reproducciones, lo cual la coloca como una de las canciones latinas más populares de la historia.
+                      </p>
+                  </article>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <article>
+                    <div class="form-group">
+                      <div class="input-group comentario">
+                        <label class="input-group-addon glyphicon glyphicon-user" for="comment"></label>
+                        <textarea class="form-control" id="comment" placeholder="Comentario"></textarea>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+
+              </div>
+            </div>
+
+          <div class="row">
+            <div class=" hidden-xs hidden-sm hidden-md col-lg-3"> <!--clase que esconde los elementos según su tamaño-->
+              <div class="row">
+                <div class="hidden-xs hidden-sm hidden-md col-lg-12 buscador">
+
+                  <aside>
+                    <div class="form-group"> <!--buscador con la ubicación de un input y un ícono referente-->
+                      <div class="input-group">
+                        <span class="input-group-addon glyphicon glyphicon-search"></span>
+                        <input type="text" class="form-control" placeholder="Buscar por...">
+                      </div>
+                    </div>
+
+                    <!--componente de Bootstrap que muestra el listado de opciones que están disponibles para la búsqueda-->
+                    <div class="list-group">
+                      <a href="#" class="list-group-item">Luis Fonsi</a>
+                      <a href="#" class="list-group-item">España en verano</a>
+                      <a href="#" class="list-group-item">Ofrecer unos conciertos</a>
+                      <a href="#" class="list-group-item">Listas de ventas</a>
+                      <a href="#" class="list-group-item">Su single Despacito</a>
+                      <a href="#" class="list-group-item">1 de Julio</a>
+                      <a href="#" class="list-group-item">Sobresaliente récord histórico</a>
+                      <a href="#" class="list-group-item">La música latina</a>
+                      <a href="#" class="list-group-item">Lista global de canciones</a>
+                      <a href="#" class="list-group-item">Escuchadas de Spotify</a>
+                      <a href="#" class="list-group-item">La versión original</a>
+                      <a href="#" class="list-group-item">El chart global</a>
+                      <a href="#" class="list-group-item">Verano</a>
+                      <a href="#" class="list-group-item">Conciertos</a>
+                      <a href="#" class="list-group-item">Listas</a>
+                      <a href="#" class="list-group-item">Julio</a>
+                      <a href="#" class="list-group-item">Latina</a>
+                      <a href="#" class="list-group-item">Escuchadas</a>
+                    </div>
+                  </aside>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+  </html>

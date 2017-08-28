@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <!--importar la fuente de los iconos de Google-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--importar las hojas de estilos de materialize css-->
+      <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,proyection"/>
+      <!-- importar los iconos de material design-->
+      <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+      <!--importar la hoja de estilo del css-->
+      <link rel="stylesheet" href="css/estilos.css">
+      <title>Blog de Turismo</title>
+    </head>
+
+    <body>
+
+      <div class="transparencia">
+
+        <header>
+          <div class="row" id="header"> <!--fila para el header utilizando el sistema de rejillas-->
+            <div class="col s12">
+              <div class="row">
+                <div class="col s12 m4 l4">
+                  <div class="logo">
+                    <img src="img/turismo.png" alt="turismo" class="z-depth-5 turismo"> <!--imagen del logo-->
+                  </div>
+                </div>
+                <div class="col s12 m8 l8">
+                  <div class="row">
+                    <div class="col s12">
+                        <nav class="nav">
+                          <div class="nav-wrapper"> <!--componente de Materialize para la navegación-->
+                            <ul class="right">
+                              <li class="lista"><a href="#" class="btn btn-small blue darken-4 boton"><i class="material-icons left">home</i><span class="textos1"> INICIO</a></li>
+                              <li class="lista1"><a href="#" class="btn btn-small blue darken-4 boton"><i class="material-icons left">room</i><span class="textos1"> ESTUVE EN...</a></li>
+                              <li class="lista2"><a href="#" class="btn btn-small blue darken-4 boton"><i class="material-icons left">grade</i><span class="textos1"> MEJORES VIAJES</a></li>
+                              <li class="lista3"><a href="#" class="btn btn-small blue darken-4 boton"><i class="material-icons left">chat bubble</i><span class="texto"> RECOMENDACIONES</span></a></li>
+                            </ul>
+                          </div>
+                        </nav>
+                      </div>
+                      <div class="col s12" id="slogan">
+                        <h4>Visitando hermosos paisajes</h4> <!--título del blog-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <section>
+            <div class="row">
+              <div class="col s12">
+                <div class="row">
+                  <div class="col s1 m1 l1 hide-on-small-only"> <!--clase que esconde elementos en dispositivos pequeños-->
+                    <div class="row">
+                      <ul>
+                        <li><a href="#"><i class="mdi mdi-facebook-box icono"></i></a></li><!--enlaces a redes sociales-->
+                        <li><a href="#"><i class="mdi mdi-twitter-box icono"></i></a></li>
+                        <li><a href="#"><i class="mdi mdi-pinterest-box icono"></i></a></li>
+                        <li><a href="#"><i class="mdi mdi-youtube-play icono"></i></a></li>
+                        <li><a href="#"><i class="mdi mdi-instagram icono"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col s12 m4 l4">
+                    <div class="row">
+                      <div class="col s12">  <!--imágenes con una cantidad diferente de elementos por columna-->
+                        <div>
+                          <img src="img/playa.png" alt="playa" class="z-depth-5 playa"> <!--herramientas de estilo para las imágenes con relieve-->
+                        </div>
+                      </div>
+                      <div class="col s12">
+                        <div>
+                          <img src="img/edificios.png" alt="edificios" class="z-depth-5 edificios">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m4 l4">
+                    <div class="row">
+                      <div class="col s12">
+                        <div>
+                          <img src="img/iglesia.png" alt="iglesia" class="z-depth-5 iglesia">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m3 l3">
+                    <div class="row">
+                      <div class="col s12">
+                        <div>
+                          <img src="img/calle.png" alt="calle" class="z-depth-5 calle">
+                        </div>
+                      </div>
+                      <div class="col s12">
+                        <div>
+                          <img src="img/castillo.png" alt="castillo" class="z-depth-5 castillo">
+                        </div>
+                      </div>
+                      <div class="col s12">
+                        <div>
+                          <img src="img/visita.png" alt="visita" class="z-depth-5 visita">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="row"> <!--entrada del blog-->
+              <div class="col s12">
+                <div class="row">
+                  <div class="col s12 m9 m9">
+                    <div class="row">
+                      <div class="col s12 z-depth-5" id="articulo">
+                        <div>
+                          <img src="img/zoologico.png" alt="zoologico" class="z-depth-5 zoologico">
+                        </div>
+                        <h6 class="textozoo">El Zoológico</h6>
+                        <!--elementos de Materialize para mostrar fecha y ubicación-->
+                        <div class="chip">
+                          9 de Julio de 2017
+                          <i class="close material-icons">today</i>
+                        </div>
+                        <div class="chip chip1">
+                          80 Mandai Lake Road, Singapur
+                          <i class="close material-icons iconos1">room</i>
+                        </div>
+                        <!--dos párrafos de texto-->
+                        <p class="textos">El zoológico de Singapur, conocido localmente como el Zooloógico de Mandai, es un jardín zoológico que ocupa 28 hectáreas en los márgenes superiores del Embalse Seletar dentro de la muy boscosa cuenca central. Fue construido a un costo de 9 millones de dólares desembolsados por el gobierno de Singapur y se abrió el 27 de junio de 1973. Es operado por la institución "Reservas de vida silvestre de Singapur", que también gestiona el Safari nocturno y el parque de aves de Jurong. Hay alrededor de 315 especies de animales, de las cuales un 16% son consideradas especies amenazadas. Este lugar turístico atrae a alrededor de 1,6 millones de visitantes cada año. Ha recibido muchos elogios por sus exhibiciones naturales, que aparentan un paisaje sin barreras ganando muchos premios y es una de las atracciones más populares de la ciudad, ya que ofrece horas y horas de diversión para grandes y pequeños.</p>
+                        <p class="textos">El zoo de Singapur se encuentra a unos 30 minutos en coche del centro de la ciudad. Hay un aparcamiento de pago disponible en el zoo. Los visitantes que se muevan en transporte público podrán llegar al zoo a través de la línea de MRT North-South y un autobús de conexión que llega hasta allí. Abre todos los días y la entrada es de pago.</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col s12 z-depth-5" id="form-comentario">
+                        <h5 class="titulo1">Deja tu comentario</h5-->
+                        <!--campo de texto para hacer comentarios-->
+                        <form>
+                         <div class="input-field col s6">
+                           <i class="material-icons prefix iconos2">account_circle</i>
+                           <input type="text" name="nombre" class="validate" id="nombre">
+                           <label for="name" class="white-text identidad">Nombre:</label>
+                        </div>
+                        <div class="input-field col s6">
+                         <i class="material-icons prefix iconos4">email</i>
+                         <input type="email" name="correo" class="validate" id="email">
+                         <label for="email" class="white-text email" data-success="Correcto" data-error="Debes completar este campo">Correo electrónico:</label>
+                        </div>
+                        <div class="input-field col s12">
+                         <i class="material-icons prefix iconos3">comment</i>
+                         <textarea name="comentario" rows="8" class="materialize-textarea" id="comentario"></textarea>
+                         <label for="comentario" class="white-text comentario">Comentario:</label>
+                         <input type="submit" name="enviar" value="Enviar" class="btn btn-small white waves-effect blue-text enviar">
+                       </div>
+                     </form>
+                   </div>
+                 </div>
+               </div>
+               <div class="col s12 m3 l3">
+                <div class="row">
+                  <div class="col s12 z-depth-5" id="perfil">
+                    <div class="section">
+                      <div>
+                        <img src="img/autor.png" alt="autor" class="circle z-depht-5 autor">
+                      </div>
+                      <h4 class="titulo2"><strong>Perfil del Autor</strong></h4>
+                      <div class="divider"></div>
+                      <!--información del autor-->
+                      <p class="perfil">Nació en Santiago del Estero, Argentina. Tiene 24 años de edad y viajó a otros países por motivo del trabajo de su padre. Fue a muchos lugares turísticos para conocer además de estudiar primaria y secundaria como La Ceiba (Honduras), Santo Domingo (República Dominicana) y Lima (Perú). Actualmente vive en la Ciudad de Panamá.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
